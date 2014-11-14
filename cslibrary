@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="./video/css/videobox.css" type="text/css" media="screen" />
 	<style>
 		html{
-			background: black;
+			background: white;
 		}
 		table, th, td{
 			border: solid;
