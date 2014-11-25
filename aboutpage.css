@@ -27,15 +27,15 @@ td{
     display: inline-block;
 }
 html{
-	background: black;
+	background: white;
 }
 body {
 	margin:0;
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
-	background:black;
-	color: white;
+	background:white;
+	color: black;
 	  	/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
 	font-size:90%;
@@ -76,7 +76,7 @@ footer {
 button{
     width: 60%;
     height: 60%;
-    background-color: black;
+    background-color: white;
     border: none;
 }
 #blackInvisible{
