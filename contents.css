@@ -1,0 +1,170 @@
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#header {
+	border-bottom:30px solid #000;
+}
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+#grey{
+    	color: #999999;
+
+}
+#red{
+    color:#990000;
+}
+#white{
+    color:white;
+}
+html{
+	background: black;
+}
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:black;
+	color: white;
+	  	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#container {
+   height:100%;
+}
+#body {
+   padding:10px;
+   padding-bottom:40px;   /* Height of the footer */
+   padding-top: 2em;
+   padding-left: 2em;
+}
+footer {
+    
+   position:relative;
+   padding-bottom: 0px;
+   bottom:0px;
+   width:100%;
+   font-family: courier, monospace;
+   font-size: 8px;
+   height:40px;   /* Height of the footer */
+  text-align: center;
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+
+}
+#rightAlign{
+    text-align: right;
+    padding-right: 6em;
+    padding-top: 3em;
+    
+}
+a:link{
+    color: #990000;
+    text-decoration: blink;
+}
+a:hover{
+    background-color: white;
+}
+
+a:visited{
+    color: #990000;
+    font-style: italic;
+}
+.biggerText{
+    font-size: 16px;
+    position: fixed;
+}
+h1{
+    color: #990000;
+    font-size: 32px;
+    
+}
+
+
+
+.buttons { 
+		position: relative;
+                padding-top: 13.5%;
+                margin-left: 5%;
+		/*padding: 5px 0; */width: 100%px; 
+		height: 40px; 
+		
+                
+}
+#contents-link { 
+		position: absolute;
+		left: 0.5%;
+		/*padding: 5px 0; */width: 14%; 
+		height: 20%;
+		background-color: transparent;
+		
+}
+
+#meet-link { 
+		position: absolute;
+                left: 16%;
+		/*padding: 5px 0; */width: 14.5%; 
+		height: 24%;
+		background-color: transparent;
+		
+}
+
+#html-link { 
+		position: absolute;
+                left: 32%;
+		/*padding: 5px 0; */width: 15%; 
+		height: 24%;
+		background-color: transparent;
+               
+}
+
+#tumblr-link { 
+		position: absolute;
+                left: 47.5%;
+		/*padding: 5px 0; */width: 15%; 
+		height: 24%;
+		background-color: transparent;
+                
+}
+
+#teacher-link { 
+		position: absolute;
+                left: 63.5%;
+		/*padding: 5px 0; */width: 15%; 
+		height: 24%;
+		background-color: transparent;
+                 
+}
+
+#about-link { 
+		position: absolute;
+                left: 80%;
+		/*padding: 5px 0; */width: 14%; 
+		height: 24%;
+		background-color: transparent;
+}
